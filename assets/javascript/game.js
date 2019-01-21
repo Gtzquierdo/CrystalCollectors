@@ -9,8 +9,7 @@ var numWins = 0;
 var numLosses = 0;
 
 $(document).ready(function() {
-
-
+    
     function resetGame() {
         randomNbr = (Math.floor(Math.random() * 100));
         $("#randomNumber").text(String(randomNbr));
